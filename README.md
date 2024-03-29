@@ -1,2 +1,2 @@
 # CODEWAY
-A repository for all tasks associated with internships 
+A repository for all tasks associated with Internship
