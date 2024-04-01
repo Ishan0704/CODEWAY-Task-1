@@ -10,8 +10,8 @@
     src:url(custom3.ttf)
 }
 @font-face{
-    font-family: custom4;
-    src:url(custom4.ttf)
+    font-family: custom1;
+    src:url(custom1.otf)
 }
 
 .header{
@@ -35,14 +35,16 @@
     font-size:30px;
 }
 .slogan-box{
-    text-align: end;
     width: 100%;
-    font-size:26px;
     font-family: custom1;
     background-color: black;
     color: rgba(109, 107, 107, 0.986);
     height:105px;
+    font-family: custom1;
+    font-size:50px;
+    text-align: end;
+    padding:20px 20px 0px 0px ;
+    
 }
-.slogan{
-    font-family: "CURLY";
-}
+
+    
