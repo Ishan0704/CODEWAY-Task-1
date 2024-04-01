@@ -113,9 +113,33 @@ a{
 }
 
 .right{
+    padding-left: 25px;
     border: rgba(109, 107, 107, 0.986) 3px solid; 
     border-left: 0px;
     background-color: black;
     width:80%;
     height: auto;
+    overflow-y: auto;
+}
+.common{
+    display: flex;
+}
+.veg{
+    width:45%;
+    border-right: dotted 1px white;
+}
+.non-veg{
+    padding-left:5%;
+    width:50%;
+}
+.name-symbol{
+    align-self: center ;
+}
+.size{
+    height:25px;
+    width: 25px;
+}
+img{
+    margin-left: 20px;
+    justify-content: center;
 }
