@@ -107,6 +107,8 @@ a{
 }
 .contact{
     text-align: left;
+    padding-bottom: 10px;
+    border-bottom: rgba(109, 107, 107, 0.986) dotted 3px;
 }
 .contact li{
     padding:10px;
@@ -120,12 +122,14 @@ a{
     width:80%;
     height: auto;
     overflow-y: auto;
+    max-height: 678px;
 }
 .common{
     display: flex;
 }
 .veg{
-    width:45%;
+    width:47%;
+    
     border-right: dotted 1px white;
 }
 .non-veg{
@@ -148,7 +152,7 @@ img{
     width: 120px;
 }
 .item{
-    display: flex;
+    display: inline-block;
     padding-left: 10px;
 }
 .block1 p{
@@ -159,7 +163,7 @@ img{
 }
 .block2{
     margin-left:60px;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -169,5 +173,6 @@ button{
 }
 .same{
     display:flex;
-    border: white dotted 2px;;
+    border: white dotted 2px;
+    margin-bottom: 15px;
 }
