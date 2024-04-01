@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: custom2;
+    src:url(custom2.ttf)
+}
+@font-face{
+    font-family: custom3;
+    src:url(custom3.ttf)
+}
+@font-face{
+    font-family: custom1;
+    src:url(custom1.otf)
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    height:110px;
+    border: 3px solid black;
+    padding-bottom: 10px;
+    
+}
+.company-name{
+    margin:15px;
+    margin-top: 0px;
+}
+.antonio{
+    font-family:custom2;
+    font-size:60px;
+}
+.snacks{
+    font-family: custom3;
+    font-size:30px;
+}
+.slogan-box{
+    width: 100%;
+    font-family: custom1;
+    background-color: black;
+    color: rgba(109, 107, 107, 0.986);
+    height:105px;
+    font-family: custom1;
+    font-size:50px;
+    text-align: end;
+    padding:20px 20px 0px 0px ;
+    
+}
+
+    
