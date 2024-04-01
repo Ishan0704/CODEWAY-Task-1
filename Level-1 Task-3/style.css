@@ -2,16 +2,20 @@
     box-sizing: border-box;
 }
 @font-face{
-    font-family: custom2;
-    src:url(custom2.ttf)
+    font-family: header2;
+    src:url(header2.ttf)
 }
 @font-face{
-    font-family: custom3;
-    src:url(custom3.ttf)
+    font-family: header3;
+    src:url(header3.ttf)
 }
 @font-face{
-    font-family: custom1;
-    src:url(custom1.otf)
+    font-family: header1;
+    src:url(header1.otf)
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 .header{
@@ -19,7 +23,7 @@
     display: flex;
     height:110px;
     border: 3px solid black;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     
 }
 .company-name{
@@ -27,11 +31,11 @@
     margin-top: 0px;
 }
 .antonio{
-    font-family:custom2;
+    font-family:header2;
     font-size:60px;
 }
 .snacks{
-    font-family: custom3;
+    font-family: header3;
     font-size:30px;
 }
 .slogan-box{
@@ -40,11 +44,70 @@
     background-color: black;
     color: rgba(109, 107, 107, 0.986);
     height:105px;
-    font-family: custom1;
+    font-family: header1;
     font-size:50px;
     text-align: end;
     padding:20px 20px 0px 0px ;
+}
+
+
+.body{
+    width:100%;
+    height:1500px;
+    background-color: black;
+    color:rgba(109, 107, 107, 0.986);
+    display: flex;
+}
+.left{
+    width:20%;
+    height:100%;
+    border-right:5px;
+    font-family: custom1;
+    text-align: center;
+    border-right: rgba(109, 107, 107, 0.986) 5px solid;
+    overflow-y:hidden;
+    max-height:200vh ;
+
+}
+.menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size:30px;
+    border:  rgba(109, 107, 107, 0.986) 5px solid;
+    border-right: 0px;
+    margin: 0px;
+}
+.order-list{
+    margin: 0px;
+    padding-top: 10px;
+    border:  rgba(109, 107, 107, 0.986) 5px solid;
+    border-right: 0px;
+    border-top: 0px;;
+}
+.order-list  li {
+    max-width:150px;
+    border:transparant 1px solid;
+    text-align: left;
+    margin-bottom: 20px;
+    color: rgba(46, 45, 45, 0.986) 5px solid;
+    text-decoration: none;
+    padding:7px;
+    font-size:22px;
+    
+}
+a{
+    text-decoration: none;
+    color: rgba(109, 107, 107, 0.986);
     
 }
 
-    
+.right{
+    width:80%;
+    height:100%;
+    border-right:5px;
+    font-family: custom1;
+    border-right: rgba(109, 107, 107, 0.986) 5px solid;
+    overflow-y: auto; /* Enable vertical scrolling for the right side */
+    max-height: calc(200vh);
+    scroll-behavior: smooth;
+}
