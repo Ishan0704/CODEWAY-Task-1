@@ -10,13 +10,16 @@
     src:url(custom3.ttf)
 }
 @font-face{
-    font-family: custom1;
-    src:url(custom1.ttf)
+    font-family: custom4;
+    src:url(custom4.ttf)
 }
 
-header{
-    height:70px;
+.header{
+    width: 100%;
     display: flex;
+    height:110px;
+    border: 3px solid black;
+    padding-bottom: 10px;
     
 }
 .company-name{
@@ -30,16 +33,16 @@ header{
 .snacks{
     font-family: custom3;
     font-size:30px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid black;
-    
 }
 .slogan-box{
     text-align: end;
     width: 100%;
-    font-size:23px;
+    font-size:26px;
     font-family: custom1;
     background-color: black;
-    color: rgb(41, 101, 153);
-    height:110px;
+    color: rgba(109, 107, 107, 0.986);
+    height:105px;
+}
+.slogan{
+    font-family: "CURLY";
 }
