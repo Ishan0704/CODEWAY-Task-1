@@ -143,3 +143,31 @@ img{
     margin-left: 20px;
     justify-content: center;
 }
+.size2{
+    height: 100px;
+    width: 120px;
+}
+.item{
+    display: flex;
+    padding-left: 10px;
+}
+.block1 p{
+    margin:10px;
+}
+.block1 .name{
+    font-size:17px;
+}
+.block2{
+    margin-left:60px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    margin-left: 10px;
+    background-color: rgb(231, 231, 55);
+}
+.same{
+    display:flex;
+    border: white dotted 2px;;
+}
