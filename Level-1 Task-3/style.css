@@ -111,3 +111,11 @@ a{
 .contact li{
     padding:10px;
 }
+
+.right{
+    border: rgba(109, 107, 107, 0.986) 3px solid; 
+    border-left: 0px;
+    background-color: black;
+    width:80%;
+    height: auto;
+}
