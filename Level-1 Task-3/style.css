@@ -113,7 +113,9 @@ a{
 .contact li{
     padding:10px;
 }
-
+.follow li{
+    align-self: flex-start;
+}
 .right{
     padding-left: 25px;
     border: rgba(109, 107, 107, 0.986) 3px solid; 
@@ -123,6 +125,7 @@ a{
     height: auto;
     overflow-y: auto;
     max-height: 678px;
+    scroll-behavior: smooth;
 }
 .common{
     display: flex;
