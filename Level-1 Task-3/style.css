@@ -53,7 +53,7 @@ html{
 
 .body{
     width:100%;
-    height:1500px;
+    height:auto;
     background-color: black;
     color:rgba(109, 107, 107, 0.986);
     display: flex;
@@ -66,48 +66,116 @@ html{
     text-align: center;
     border-right: rgba(109, 107, 107, 0.986) 5px solid;
     overflow-y:hidden;
-    max-height:200vh ;
+    border:  rgba(109, 107, 107, 0.986) 3px solid;
 
 }
 .menu{
     padding-top: 20px;
     padding-bottom: 20px;
     font-size:30px;
-    border:  rgba(109, 107, 107, 0.986) 5px solid;
+    /* border:  rgba(109, 107, 107, 0.986) 5px solid; */
     border-right: 0px;
     margin: 0px;
 }
 .order-list{
     margin: 0px;
     padding-top: 10px;
-    border:  rgba(109, 107, 107, 0.986) 5px solid;
-    border-right: 0px;
-    border-top: 0px;;
+    /* border:  rgba(109, 107, 107, 0.986) 5px solid; */
+    border-bottom: rgba(109, 107, 107, 0.986) 3px dotted;
 }
 .order-list  li {
     max-width:150px;
-    border:transparant 1px solid;
     text-align: left;
     margin-bottom: 20px;
     color: rgba(46, 45, 45, 0.986) 5px solid;
     text-decoration: none;
     padding:7px;
     font-size:22px;
-    
 }
+
+.border{
+    border:transparant 1px solid;
+}
+.border:hover{
+    border:white 1px solid;
+}
+
 a{
     text-decoration: none;
     color: rgba(109, 107, 107, 0.986);
     
 }
-
+.contact{
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: rgba(109, 107, 107, 0.986) dotted 3px;
+}
+.contact li{
+    padding:10px;
+}
+.follow li{
+    align-self: flex-start;
+}
 .right{
+    padding-left: 25px;
+    border: rgba(109, 107, 107, 0.986) 3px solid; 
+    border-left: 0px;
+    background-color: black;
     width:80%;
-    height:100%;
-    border-right:5px;
-    font-family: custom1;
-    border-right: rgba(109, 107, 107, 0.986) 5px solid;
-    overflow-y: auto; /* Enable vertical scrolling for the right side */
-    max-height: calc(200vh);
+    height: auto;
+    overflow-y: auto;
+    max-height: 618px;
     scroll-behavior: smooth;
+}
+.common{
+    display: flex;
+}
+.veg{
+    width:47%;
+    
+    border-right: dotted 1px white;
+}
+.non-veg{
+    padding-left:5%;
+    width:50%;
+}
+.name-symbol{
+    align-self: center ;
+}
+.size{
+    height:25px;
+    width: 25px;
+}
+img{
+    margin-left: 20px;
+    justify-content: center;
+}
+.size2{
+    height:100px;
+    width: 120px;
+}
+.item{
+    display: inline-block;
+    padding-left: 10px;
+}
+.block1 p{
+    margin:10px;
+}
+.block1 .name{
+    font-size:17px;
+}
+.block2{
+    margin-left:60px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+button{
+    margin-left: 10px;
+    background-color: rgb(231, 231, 55);
+}
+.same{
+    display:flex;
+    border: white dotted 2px;
+    margin-bottom: 15px;
 }
