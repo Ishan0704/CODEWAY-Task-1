@@ -124,7 +124,7 @@ a{
     width:80%;
     height: auto;
     overflow-y: auto;
-    max-height: 678px;
+    max-height: 618px;
     scroll-behavior: smooth;
 }
 .common{
@@ -151,7 +151,7 @@ img{
     justify-content: center;
 }
 .size2{
-    height: 100px;
+    height:100px;
     width: 120px;
 }
 .item{
