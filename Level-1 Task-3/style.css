@@ -76,6 +76,7 @@ html{
     /* border:  rgba(109, 107, 107, 0.986) 5px solid; */
     border-right: 0px;
     margin: 0px;
+    border-top: rgba(109, 107, 107, 0.986) dotted 3px;
 }
 .order-list{
     margin: 0px;
@@ -124,7 +125,7 @@ a{
     width:80%;
     height: auto;
     overflow-y: auto;
-    max-height: 618px;
+    max-height: 758px;
     scroll-behavior: smooth;
 }
 .common{
@@ -178,4 +179,23 @@ button{
     display:flex;
     border: white dotted 2px;
     margin-bottom: 15px;
+}
+.about-us-left{
+    margin:20px;
+    padding: 10px;
+    font-size:24px;
+    justify-content: center;
+    text-align: center;
+    /* border-bottom: rgba(109, 107, 107, 0.986) dotted 3px; */
+}
+.left-heading{
+    font-size: 24px;
+}
+.about-us-right{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#menu-heading{
+    border-top: rgba(109, 107, 107, 0.986) solid 3px;
+    padding-top: 40px;;
 }
